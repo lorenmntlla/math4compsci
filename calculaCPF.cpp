@@ -21,7 +21,7 @@ int calculaVerificador(const std::vector<int> &vetor_cpf) {
   return verificador;
 }
 
-std::string calculaCPF(std::vector<int> &vetor_cpf) {
+std::string calculaCPF(std::vector<int> vetor_cpf) {
   std::string cpf{};
 
   vetor_cpf.push_back(calculaVerificador(vetor_cpf));

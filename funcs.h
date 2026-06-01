@@ -23,5 +23,5 @@ ResultadoBezout euclidesEstendido(int a, int b);
 
 std::string diaDaSemana(int dia, int mes, int ano);
 
-std::string calculaCPF(std::vector<int> &vetor_cpf);
+std::string calculaCPF(std::vector<int> vetor_cpf);
 }; // namespace mc
